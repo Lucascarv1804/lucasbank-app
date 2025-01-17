@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../assets/css/transfer.css">
+    <!-- JS File -->
+    <script src="../assets/js/transfer.js" defer></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <p class="title">Send Money</p>
+
+        <section class="balance-section">
+            <div class="balance-content">
+                <div class="profile-pic"></div>
+
+                <div class="balance-info">
+                    <p class="balance-title">total balance</p>
+                    <p class="balance">$<span class="balance-amount">56.980,00</span></p>
+                </div>
+            </div>
+
+            <div class="util-btns">
+                <button class="hide-btn">
+                    <i id="hide-icon" class="bi bi-eye-slash-fill"></i>
+                </button>
+
+                <button class="logout-btn">
+                    <i class="bi bi-person-x-fill"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="beneficiary-section">
+            <div class="beneficiary-header">
+                <p>Beneficiary</p>
+
+                <i class="bi bi-search"></i>
+            </div>
+
+            <div class="beneficiary-main">
+                <input type="text" name="beneficiary-cpf" id="beneficiary-cpf">
+            </div>
+        </section>
+
+        <section class="transfer-section">
+            <h1 class="amount-display">$<span id="amount">1000.00</span></h1>
+
+            <div class="keypad">
+                <button class="key">1</button>
+                <button class="key">2</button>
+                <button class="key">3</button>
+                <button class="key">4</button>
+                <button class="key">5</button>
+                <button class="key">6</button>
+                <button class="key">7</button>
+                <button class="key">8</button>
+                <button class="key">9</button>
+                <button class="key">.</button>
+                <button class="key">0</button>
+                <button class="key delete">⌫</button>
+            </div>
+
+            <button class="send-btn" id="send-btn">Send $0.00</button>
+        </section>
+    </div>
+</body>
+
+</html>
