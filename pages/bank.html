@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial | LucasBank</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="../assets/css/bank.css">
+    <!-- JS File -->
+    <script src="../assets/js/bank.js" defer></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="balance-section">
+            <div class="balance-content">
+                <div class="profile-pic"></div>
+
+                <div class="balance-info">
+                    <p class="balance-title">total balance</p>
+                    <p class="balance">$<span class="amount">56.980,00</span></p>
+                </div>
+            </div>
+
+            <button class="hide">
+                <i class="bi bi-eye-fill"></i>
+            </button>
+        </section>
+
+        <section class="card-section">
+            <div class="card">
+                <div class="card-top">
+                    <p class="card-name">Lucas Carvalho</p>
+                    <img src="../assets/images/mastercard.svg" class="card-flag">
+                </div>
+
+                <div class="card-chip">
+                    <img src="../assets/images/card-chip.png">
+                </div>
+
+                <div class="card-bottom">
+                    <p class="card-number">1234 5678 9123 4567</p>
+                    <p class="card-vadility">10/25</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="actions-section">
+            <div class="action-item">
+                <i class="bi bi-cash"></i>
+                <p>Depositar</p>
+            </div>
+            
+            <div class="action-item">
+                <i class="bi bi-wallet2"></i>
+                <p>Sacar</p>
+            </div>
+
+            <div class="action-item">
+                <i class="bi bi-arrow-left-right"></i>
+                <p>Transferir</p>
+            </div>
+        </section>
+
+        <section class="transactions-section">
+            <p class="transactions-title">Transactions</p>
+
+            <!-- Transaction 1 -->
+            <div class="transaction">
+                <div class="left-side">
+                    <span class="avatar">BM</span>
+                    <div class="left-side-txt">
+                        <p class="name">Bruna Melo</p>
+                        <p class="time">Today, 12:30</p>
+                    </div>
+                </div>
+                <div class="amount">-$438</div>
+            </div>
+
+            <!-- Transaction 2 -->
+            <div class="transaction">
+                <div class="left-side">
+                    <span class="avatar">RC</span>
+                    <div class="left-side-txt">
+                        <p class="name">Rogério Carvalho</p>
+                        <p class="time">Today, 12:30</p>
+                    </div>
+                </div>
+                <div class="amount">+$1400</div>
+            </div>
+
+            <!-- Transaction 3 -->
+            <div class="transaction">
+                <div class="left-side">
+                    <span class="avatar">NC</span>
+                    <div class="left-side-txt">
+                        <p class="name">Nínive Carvalho</p>
+                        <p class="time">Yesterday, 15:32</p>
+                    </div>
+                </div>
+                <div class="amount">+$200</div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
