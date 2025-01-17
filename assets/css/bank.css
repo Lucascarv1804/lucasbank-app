@@ -55,13 +55,20 @@ body {
     font-size: 1.6rem;
 }
 
-.hide {
+.hide-btn, .logout-btn {
     height: 40px;
     width: 40px;
     background-color: #FAF4F1;
     border: 2px solid #e6e6e6;
     border-radius: 50%;
     font-size: 1.2rem;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.hide-btn:hover, .logout-btn:hover {
+    background-color: #D1EDC0;
+    border-color: #D1EDC0;
 }
 
 /* CARD SECTION */
@@ -189,7 +196,7 @@ body {
     color: #c6c6c6;
 }
 
-.amount {
+.transaction-amount {
     font-weight: 600;
 }
 

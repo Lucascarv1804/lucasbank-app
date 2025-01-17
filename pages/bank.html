@@ -21,13 +21,19 @@
 
                 <div class="balance-info">
                     <p class="balance-title">total balance</p>
-                    <p class="balance">$<span class="amount">56.980,00</span></p>
+                    <p class="balance">$<span class="balance-amount">56.980,00</span></p>
                 </div>
             </div>
 
-            <button class="hide">
-                <i class="bi bi-eye-fill"></i>
-            </button>
+            <div class="util-btns">
+                <button class="hide-btn">
+                    <i id="hide-icon" class="bi bi-eye-slash-fill"></i>
+                </button>
+
+                <button class="logout-btn">
+                    <i class="bi bi-person-x-fill"></i>
+                </button>
+            </div>
         </section>
 
         <section class="card-section">
@@ -53,7 +59,7 @@
                 <i class="bi bi-cash"></i>
                 <p>Depositar</p>
             </div>
-            
+
             <div class="action-item">
                 <i class="bi bi-wallet2"></i>
                 <p>Sacar</p>
@@ -77,7 +83,7 @@
                         <p class="time">Today, 12:30</p>
                     </div>
                 </div>
-                <div class="amount">-$438</div>
+                <div class="transaction-amount">-$438</div>
             </div>
 
             <!-- Transaction 2 -->
@@ -89,7 +95,7 @@
                         <p class="time">Today, 12:30</p>
                     </div>
                 </div>
-                <div class="amount">+$1400</div>
+                <div class="transaction-amount">+$1400</div>
             </div>
 
             <!-- Transaction 3 -->
@@ -101,7 +107,7 @@
                         <p class="time">Yesterday, 15:32</p>
                     </div>
                 </div>
-                <div class="amount">+$200</div>
+                <div class="transaction-amount">+$200</div>
             </div>
         </section>
     </div>
