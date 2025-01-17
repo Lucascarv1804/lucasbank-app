@@ -11,19 +11,25 @@
 
 body {
     background-color: #F4EEEC;
-    height: 90vh;
 }
 
 .container {
     background-color: #ffffff;
     border-radius: 1.5rem;
-    height: 100%;
 }
 
 .title {
-    padding: 1.5rem 2rem;
+    padding: 1rem;
     font-weight: 600;
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.back-btn {
+    font-size: 2rem;
+    color: #000;
 }
 
 /* BALANCE SECTION */
@@ -34,7 +40,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 110px;
+    /* height: 110px;    */
     border-radius: 1.5rem;
 }
 
@@ -89,7 +95,6 @@ body {
     padding: 1.5rem 2rem;
     display: flex;
     flex-direction: column;
-    
 }
 
 .beneficiary-header {
@@ -111,9 +116,53 @@ body {
     outline: 2px solid #717171;
 }
 
+.transfer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    /* border: 2px solid red; */
+}   
+
+.amount-display {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.key {
+    background: #f0f0f0;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.send-btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
 @media (min-width: 600px) {
     .container {
         max-width: 500px;
-        margin: 2rem auto;
+        margin: 1rem auto;
     }
 }

@@ -137,16 +137,15 @@ body {
     align-items: center;
     font-size: 1.1rem;
     font-weight: 500;
-    transition: color .3s;
     cursor: pointer;
+    transition: color .3s ease-in-out;
+    text-decoration: none;
+    color: #000;
+    transition: color .3s ease-in-out;
 }
 
 .action-item:hover {
     color: #E9AB49;
-}
-
-.action-item .bi {
-    font-size: 1.2rem;
 }
 
 /* TRANSACTION SECTION */

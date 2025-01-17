@@ -54,7 +54,7 @@ const logoutBtn = document.querySelector('.logout-btn');
 logoutBtn.addEventListener('click', () => {
     localStorage.removeItem('currentUser');
 
-    alert('Deslogando... Você será redirecionado ao clicar em "Ok"');
+    alert('Deslogando... Você será redirecionado!');
 
     window.location.href = '../index.html';
 });

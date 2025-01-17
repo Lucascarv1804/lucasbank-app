@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Document</title>
     <!-- CSS File -->
     <link rel="stylesheet" href="../assets/css/transfer.css">
@@ -15,15 +15,20 @@
 
 <body>
     <div class="container">
-        <p class="title">Send Money</p>
+        <div class="title">
+            <a class="back-btn" href="../pages/bank.html">
+                <i class="bi bi-arrow-left-short"></i>
+            </a>
+            <p class="title">Transferência</p>
+        </div>
 
         <section class="balance-section">
             <div class="balance-content">
                 <div class="profile-pic"></div>
 
                 <div class="balance-info">
-                    <p class="balance-title">total balance</p>
-                    <p class="balance">$<span class="balance-amount">56.980,00</span></p>
+                    <p class="balance-title">Saldo Atual</p>
+                    <p class="balance">$<span class="balance-amount">0</span></p>
                 </div>
             </div>
 
@@ -40,18 +45,18 @@
 
         <section class="beneficiary-section">
             <div class="beneficiary-header">
-                <p>Beneficiary</p>
+                <p>CPF do destinatário</p>
 
                 <i class="bi bi-search"></i>
             </div>
 
             <div class="beneficiary-main">
-                <input type="text" name="beneficiary-cpf" id="beneficiary-cpf">
+                <input type="text" name="beneficiary-cpf" id="beneficiary-cpf" autocomplete="off">
             </div>
         </section>
 
         <section class="transfer-section">
-            <h1 class="amount-display">$<span id="amount">1000.00</span></h1>
+            <p class="amount-display">$<span class="amount">0</span></p>
 
             <div class="keypad">
                 <button class="key">1</button>
@@ -68,7 +73,7 @@
                 <button class="key delete">⌫</button>
             </div>
 
-            <button class="send-btn" id="send-btn">Send $0.00</button>
+            <button class="send-btn" id="send-btn">Enviar <span class="amount">$0.00</span></button>
         </section>
     </div>
 </body>
