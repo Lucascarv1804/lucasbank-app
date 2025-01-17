@@ -13,18 +13,22 @@ a {
     text-decoration: none;
 }
 
+html, body {
+    touch-action: manipulation;
+}
+
 .container {
     background-color: #D0EDC0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     padding: 0 2rem;
 }
 
 .content {
-    margin: 0 1rem 8rem;
+    margin: 0 1rem;
 }
 
 .title {

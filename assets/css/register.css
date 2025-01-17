@@ -9,13 +9,17 @@
   font-family: 'Poppins', serif;
 }
 
+html, body {
+    touch-action: manipulation;
+}
+
 .container {
     background-color: #D0EDC0;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     position: relative;
 }
 
@@ -27,9 +31,8 @@
     color: #000;
 }
 
-
 .content {
-    margin: 0 1rem 7rem;
+    margin: 0 1rem;
 }
 
 .title {

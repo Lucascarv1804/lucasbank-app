@@ -9,6 +9,10 @@
   font-family: 'Poppins', serif;
 }
 
+html, body {
+    touch-action: manipulation;
+}
+
 body {
     background-color: #F4EEEC;
 }

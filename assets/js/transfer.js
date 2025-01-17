@@ -30,7 +30,7 @@ keys.forEach((key) => {
 
         // Atualiza a exibição
         amountDisplay.textContent = amount || '0';
-        sendButton.textContent = `Send $${amount || '0'}.00`;
+        sendButton.textContent = `Enviar $${amount || '0'}.00`;
     });
 });
 
