@@ -3,10 +3,10 @@
 
 /* CSS Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', serif;
 }
 
 html, body {
@@ -107,3 +107,9 @@ html, body {
         transform: translateY(0);
     }
 }
+
+@media (min-width: 460px) {
+    .logo {
+        margin: 4rem 0;
+    }
+} 

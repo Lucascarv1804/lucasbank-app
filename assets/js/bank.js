@@ -48,7 +48,7 @@ hideBtn.addEventListener('click', () => {
     isHidden = !isHidden;
 });
 
-// LOGOUT BUTTON
+// LOGOUT BUTTON ================================================================
 const logoutBtn = document.querySelector('.logout-btn');
 
 logoutBtn.addEventListener('click', () => {

@@ -30,7 +30,7 @@ keys.forEach((key) => {
 
         // Atualiza a exibição
         amountDisplay.textContent = amount || '0';
-        sendButton.textContent = `Enviar $${amount || '0'}.00`;
+        sendButton.textContent = `Enviar $${amount || '0'}`;
     });
 });
 
@@ -42,7 +42,7 @@ const currentUserCPF = localStorage.getItem('currentUser');
 const currentUser = users.find(user => user.cpf === currentUserCPF);
 
 
-// Hide Button ===================================================================
+// HIDE BUTTON
 const hideBtn = document.querySelector('.hide-btn');
 const hideIcon = document.getElementById('hide-icon');
 

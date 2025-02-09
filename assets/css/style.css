@@ -53,7 +53,7 @@ html, body {
 
 .btn {
     height: 60px;
-    width: 190px;
+    min-width: 50%;
     border: none;
     border-radius: 1.6rem;
     font-weight: bold;
@@ -102,3 +102,9 @@ html, body {
         transform: translateY(0);
     }
 }
+
+@media (min-width: 460px) {
+    .logo {
+        margin: 4rem 0;
+    }
+}   

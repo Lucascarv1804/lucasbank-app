@@ -8,7 +8,6 @@ registerForm.addEventListener('submit', (e) => {
     const cpf = document.getElementById('cpf').value;
     const password = document.getElementById('password').value;
 
-    // Lê os usuários do localStorage ou inicializa um array vazio
     const users = JSON.parse(localStorage.getItem('users')) || [];
 
     // Verifica se o CPF já está cadastrado
